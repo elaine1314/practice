@@ -12,10 +12,12 @@ public class revertString {
                 sb.append(revert[i]+ " ");
             }
         }else{
-            char[] t = str.toCharArray();
-            for(int j = t.length-1; j >= 0; j--){
-                sb.append(t[j]);
-            }
+//            char[] t = str.toCharArray();
+//            for(int j = t.length-1; j >= 0; j--){
+//                sb.append(t[j]);
+//            }
+            StringBuffer sf = new StringBuffer(str).reverse();
+            sb = sf;
         }
 
         return sb.toString();
@@ -23,7 +25,7 @@ public class revertString {
 
     public static void main(String[] a){
         revertString rs = new revertString();
-        String testStr = "This is Tom";
+        String testStr = "abcdefg";
         String result = rs.revertStr(testStr);
         System.out.println(result);
     }
