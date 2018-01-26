@@ -5,7 +5,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by chengc32 on 2018/1/18.
+ * Created by elaine on 2018/1/18.
+ * 题目：输入{'a', 'a', 'b', 'b', 'b','b','b','b','b', 'b', 'b','b','b','b', 'c', 'a', 'a', 'b'}
+ * 结果：输出[a, 2, b, 1, 2, c, a, 2, b]
  */
 public class accountStr {
     // 第一种方法

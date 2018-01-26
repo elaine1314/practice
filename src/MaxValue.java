@@ -1,5 +1,7 @@
 /**
  * Created by elaine on 2018/1/17.
+ * 题目：输入{8, 90, 56, 9, 4, 123, 91}
+ * 结果：输出 991908564123
  */
 public class MaxValue {
     public static String maxValue(String[] value){
