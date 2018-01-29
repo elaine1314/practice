@@ -12,10 +12,6 @@ public class revertString {
                 sb.append(revert[i]+ " ");
             }
         }else{
-//            char[] t = str.toCharArray();
-//            for(int j = t.length-1; j >= 0; j--){
-//                sb.append(t[j]);
-//            }
             StringBuffer sf = new StringBuffer(str).reverse();
             sb = sf;
         }
@@ -29,6 +25,4 @@ public class revertString {
         String result = rs.revertStr(testStr);
         System.out.println(result);
     }
-
-
 }
